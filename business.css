@@ -1,0 +1,216 @@
+﻿* {
+margin: 0em;
+padding: 0em;
+font-size: 100%;
+border-style: none;
+list-style-type: none;
+}
+
+main {
+display: block;
+}
+
+
+body {
+	background-image: url(images/business_solutions_bg.png);
+	background-repeat: repeat-x;
+	background-color: #e0e0e0;
+	font-family: 'Roboto', calibri, arial, sans-serif;
+	color: #fff;
+}
+
+#wrapper {
+	width: 1202px;
+	margin: 0px auto 20px auto;
+	max-width: 1024px;
+	min-width: 768px;
+	background: linear-gradient(#5d5d5d, #282828);
+	border-radius: 15px;
+
+}
+
+#logo{
+	margin-top: 40px;
+	margin-left: 30px;
+	border-radius: 15px;
+} 
+
+#solution-staff {
+	margin-left: 130px;
+	border-radius: 15px;
+	margin-top: 40px;
+	opacity: 0.5;
+}
+
+.flex-container {
+	display: flex;
+	width: 900px;
+	margin-top: 40px;
+}
+
+.flex-item {
+	margin-right: 20px;
+	margin-left: 40px;
+	
+}
+
+#flex1 {
+		background: linear-gradient(#5d5d5d, #282828);
+		border-radius: 15px;
+}
+
+nav {
+	width: 150px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 22px;
+	margin-left: 20px;
+}
+
+nav li {
+		margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+nav a:hover {
+	color: #9c973c;
+}
+
+#flex2 {
+	background-color: #9c973c;
+	border-radius: 15px;
+	width: 1200px;
+}
+
+#flex2 img {
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+#flex2 li {
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid;
+	border-color: #4a4a4a;
+}
+
+#flex2 p {
+	margin-left: 20px;
+	font-size: 12px;
+}
+
+#flex3 a {
+	text-decoration: none;
+	color: #bdba51;
+}
+
+#flex3 {
+
+}
+
+footer ul {
+	display: flex;
+	justify-content: space-around;
+	font-size: 10px;
+	width: 1000px;
+}
+
+footer li {
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+footer li a {
+	text-decoration: none;
+	color: #fff;
+}
+
+
+/*Responsive design*/
+@media screen and (max-width: 480px) { 
+
+#wrapper {
+margin: 0px; 
+min-width: 320px; 
+width:395px;
+}
+
+#inner-wrapper { padding: 3% ;
+	width:395px;
+}
+
+/* responsive design for SMART PHONES */
+#responsive-menu .menu { /* responsive MENU */ max-height: 0;
+overflow: hidden;
+float: none;
+width: 100%;
+transition: max-height 0.5s;
+}
+#responsive-menu .menu.menu-open { max-height: 1000px;
+transition: max-height 0.5s;
+}
+#responsive-menu .menu-icon { display: inline-block;
+}
+nav { /* insert a suitable top margin */
+}
+nav ul {
+flex-flow: column wrap;
+}
+nav li { /* insert a suitable top margin */
+font-size: 83%;
+}
+main { /* insert a suitable top margin */
+}
+
+.flex-container{
+	display:inline-block;
+	width: 400px;
+}
+
+#flex1{
+	width:250px; margin:0 0 20px 0;
+}
+
+#flex2{
+	width:300px;margin:0 0 20px 0;
+}
+
+#flex3{
+	width:300px;margin:0 0 20px 0;
+}
+
+footer { width:350px;
+ margin:0px;
+ text-align:center;
+ clear:both; 
+ width: 100%;
+}
+
+footer ul {
+display:block;
+width:395px;
+}
+footer li { margin-top: 3px;
+}
+
+#logo {
+max-width: 480px;
+overflow: hidden;
+width: 370px;
+margin: 0px;
+}
+
+#solution-staff {
+	max-width: 480px;
+	overflow: hidden;
+	width: 370px;
+	margin: 0px;
+}
+
+
+} /* closes 480px break point */
